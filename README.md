@@ -168,7 +168,7 @@ API_SERVER_IP=<SERVER_IP> API_SERVER_PORT=6443 helm install cilium cilium/cilium
     --set k8sServicePort=${API_SERVER_PORT}
 ```
 
-# Remove Taint
+### Remove Taint
 
 Allows data plane (workers) to run on the control plane node.
 
